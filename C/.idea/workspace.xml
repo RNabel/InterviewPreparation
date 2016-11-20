@@ -4,6 +4,7 @@
     <generated>
       <config projectName="C" targetName="C" />
       <config projectName="C" targetName="ArrayVector" />
+      <config projectName="C" targetName="HashTable" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="false" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
@@ -13,11 +14,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb5ce0c3-f8bc-44b5-9c69-6451dff1cd83" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ArrayVector/main.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HashTable/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HashTable/main.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HashTable/main.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/C.iml" afterPath="$PROJECT_DIR$/.idea/C.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ArrayVector/CMakeLists.txt" afterPath="$PROJECT_DIR$/ArrayVector/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ArrayVector/main.c" afterPath="$PROJECT_DIR$/ArrayVector/main.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
     </list>
     <ignored path="C.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,35 +41,15 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="main.c" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ArrayVector/main.c">
+            <entry file="file://$PROJECT_DIR$/HashTable/main.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="212" column="23" selection-start-line="212" selection-start-column="23" selection-end-line="212" selection-end-column="23" />
+                <state relative-caret-position="360">
+                  <caret line="70" column="76" selection-start-line="70" selection-start-column="76" selection-end-line="70" selection-end-column="76" />
                   <folding>
                     <element signature="e#0#57#0" expanded="false" />
-                    <element signature="e#59#77#0" expanded="true" />
-                    <element signature="e#179#456#0" expanded="false" />
-                    <element signature="e#654#709#0" expanded="false" />
-                    <element signature="e#711#775#0" expanded="false" />
-                    <element signature="e#781#846#0" expanded="false" />
-                    <element signature="e#848#1013#0" expanded="false" />
-                    <element signature="e#1015#1195#0" expanded="false" />
-                    <element signature="e#1197#1580#0" expanded="false" />
-                    <element signature="e#1582#1647#0" expanded="false" />
-                    <element signature="e#1649#1854#0" expanded="false" />
-                    <element signature="e#2577#2700#0" expanded="false" />
-                    <marker date="1479473301839" expanded="false" signature="2738:3195" ph="{...}" />
+                    <element signature="e#361#472#0" expanded="false" />
+                    <element signature="e#857#944#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -78,10 +60,10 @@
       <split-second>
         <leaf>
           <file leaf-file-name="main.h" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ArrayVector/main.h">
+            <entry file="file://$PROJECT_DIR$/HashTable/main.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="468">
-                  <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+                <state relative-caret-position="360">
+                  <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -107,10 +89,13 @@
         <option value="$PROJECT_DIR$/main2.c" />
         <option value="$PROJECT_DIR$/main.c" />
         <option value="$PROJECT_DIR$/ArrayVector/CMakeLists.txt.go" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/ArrayVector/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/ArrayVector/main.h" />
         <option value="$PROJECT_DIR$/ArrayVector/main.c" />
+        <option value="$PROJECT_DIR$/HashTable/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/HashTable/main.h" />
+        <option value="$PROJECT_DIR$/HashTable/main.c" />
       </list>
     </option>
   </component>
@@ -178,6 +163,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="HashTable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="C" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="ArrayVector" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -195,11 +194,14 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HashTable" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ArrayVector" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayVector">
+  <component name="RunManager" selected="Application.HashTable">
     <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="C" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
       <envs />
       <method />
@@ -393,10 +395,15 @@
       <envs />
       <method />
     </configuration>
-    <list size="3">
+    <configuration default="false" name="HashTable" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="HashTable" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="HashTable">
+      <envs />
+      <method />
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.C" />
       <item index="1" class="java.lang.String" itemvalue="Application.ArrayVector" />
       <item index="2" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="3" class="java.lang.String" itemvalue="Application.HashTable" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -413,7 +420,8 @@
       <option name="presentableId" value="Default" />
       <updated>1479416563639</updated>
       <workItem from="1479416564930" duration="2035000" />
-      <workItem from="1479465713744" duration="7586000" />
+      <workItem from="1479465713744" duration="8214000" />
+      <workItem from="1479660253814" duration="8006000" />
     </task>
     <task id="LOCAL-00001" summary="CMAKE project outline, one executable per entry.">
       <created>1479418253607</created>
@@ -429,33 +437,40 @@
       <option name="project" value="LOCAL" />
       <updated>1479466582873</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ArrayVector implementation in C.">
+      <created>1479473315914</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1479473315914</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9621000" />
+    <option name="totallyTimeSpent" value="18255000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.48726115" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.48089173" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32834226" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32834226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32834226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5127388" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5191083" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -473,7 +488,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CMAKE project outline, one executable per entry." />
     <MESSAGE value="Initialization code for struct written." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialization code for struct written." />
+    <MESSAGE value="ArrayVector implementation in C." />
+    <option name="LAST_COMMIT_MESSAGE" value="ArrayVector implementation in C." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -488,12 +504,30 @@
           <line>101</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/HashTable/main.c</url>
+          <line>106</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/HashTable/main.c</url>
+          <line>52</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ArrayVector/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -516,8 +550,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#57#0" expanded="false" />
-            <element signature="e#59#77#0" expanded="true" />
             <element signature="e#179#456#0" expanded="false" />
+            <element signature="e#458#652#0" expanded="false" />
             <element signature="e#654#709#0" expanded="false" />
             <element signature="e#711#775#0" expanded="false" />
             <element signature="e#781#846#0" expanded="false" />
@@ -526,8 +560,14 @@
             <element signature="e#1197#1580#0" expanded="false" />
             <element signature="e#1582#1647#0" expanded="false" />
             <element signature="e#1649#1854#0" expanded="false" />
+            <element signature="e#1856#2153#0" expanded="false" />
+            <element signature="e#2155#2310#0" expanded="false" />
+            <element signature="e#2312#2478#0" expanded="false" />
+            <element signature="e#2496#2571#0" expanded="false" />
             <element signature="e#2577#2700#0" expanded="false" />
-            <marker date="1479473301839" expanded="false" signature="2738:3195" ph="{...}" />
+            <element signature="e#2702#3195#0" expanded="false" />
+            <element signature="e#3201#3757#0" expanded="false" />
+            <element signature="e#3759#5169#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -549,14 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ArrayVector/main.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ArrayVector/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -565,22 +597,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ArrayVector/main.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HashTable/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ArrayVector/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="212" column="23" selection-start-line="212" selection-start-column="23" selection-end-line="212" selection-end-column="23" />
+        <state relative-caret-position="126">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
             <element signature="e#0#57#0" expanded="false" />
-            <element signature="e#59#77#0" expanded="true" />
             <element signature="e#179#456#0" expanded="false" />
+            <element signature="e#458#652#0" expanded="false" />
             <element signature="e#654#709#0" expanded="false" />
             <element signature="e#711#775#0" expanded="false" />
             <element signature="e#781#846#0" expanded="false" />
@@ -589,8 +637,34 @@
             <element signature="e#1197#1580#0" expanded="false" />
             <element signature="e#1582#1647#0" expanded="false" />
             <element signature="e#1649#1854#0" expanded="false" />
+            <element signature="e#1856#2153#0" expanded="false" />
+            <element signature="e#2155#2310#0" expanded="false" />
+            <element signature="e#2312#2478#0" expanded="false" />
+            <element signature="e#2496#2571#0" expanded="false" />
             <element signature="e#2577#2700#0" expanded="false" />
-            <marker date="1479473301839" expanded="false" signature="2738:3195" ph="{...}" />
+            <element signature="e#2702#3195#0" expanded="false" />
+            <element signature="e#3201#3757#0" expanded="false" />
+            <element signature="e#3759#5169#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HashTable/main.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HashTable/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="70" column="76" selection-start-line="70" selection-start-column="76" selection-end-line="70" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#57#0" expanded="false" />
+            <element signature="e#361#472#0" expanded="false" />
+            <element signature="e#857#944#0" expanded="false" />
           </folding>
         </state>
       </provider>

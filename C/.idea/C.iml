@@ -5,6 +5,9 @@
       <sourceFolder url="file://$MODULE_DIR$/ArrayVector/main.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ArrayVector/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ArrayVector/main.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/HashTable/main.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/HashTable/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/HashTable/main.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
