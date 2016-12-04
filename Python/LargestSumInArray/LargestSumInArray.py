@@ -32,11 +32,10 @@ def find_largest_sum_contiguous(arr):
 def find_largest_sum_non_contiguous(arr):
     if len(arr):
         filtered_arr = filter(lambda x: x > 0, arr)
-        if __name__ == '__main__':
-            if len(filtered_arr):
-                return reduce(lambda prev, curr: prev + curr, filtered_arr)
-            else:  # return largest element
-                return max(arr)
+        if len(filtered_arr):
+            return reduce(lambda prev, curr: prev + curr, filtered_arr)
+        else:  # return largest element
+            return max(arr)
 
     else:
         return 0

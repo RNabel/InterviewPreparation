@@ -3,12 +3,12 @@ def find_max_sum(arr):
     excl = 0
 
     for i in arr:
-        # Current max excluding i (No ternary in
-        # Python)
+        # Current max excluding i (current element)
         new_excl = max(excl, incl)
 
         # Current max including i
         incl = excl + i
+        # Update excluding.
         excl = new_excl
 
     # return max of incl and excl

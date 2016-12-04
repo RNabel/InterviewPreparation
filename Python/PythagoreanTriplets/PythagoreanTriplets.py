@@ -1,10 +1,7 @@
-# Map from squared value to indices
-m = {}
-
-
 def find_pair(arr, i):
     c = arr[i]
     subset = arr[:i]
+    # DP memo.
     element_map = {}
 
     for i, x in reversed(list(enumerate(subset))):
